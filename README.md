@@ -128,7 +128,7 @@ data: new SlashCommandBuilder()
   }
 }
 ```
-> O que acabamos de ver é um basico exemplo de como uma `Handler` funciona. Você tambem pode adaptar para usar os comandos comuns de Bots ao invés de SlashCommands!
+> O que acabamos de ver é um basico exemplo de como uma `Handler` funciona. Você também pode adaptar para usar os comandos comuns de Bots ao invés de SlashCommands!
 
 ## `APIs`, `Módulos` e `Dependências` usadas no code
 * [npm install discord.js](https://www.npmjs.com/package/discord.js)
