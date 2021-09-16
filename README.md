@@ -59,7 +59,7 @@ No Arquivo Principal, `index.js`
 ```javascript
 const { Collection } = require("discord");
 
-<Client>.cooldown = new Collection();
+client.cooldown = new Collection();
 ```
 Setando os Comandos
 ```javascript
