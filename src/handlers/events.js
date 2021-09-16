@@ -6,6 +6,6 @@ const eventFolder = readdirSync("./src/events/").filter(f => f.endsWith(".js"));
         const event = require(`../events/${events}`);
         const name = event.name;
         const value = (...args) => event.execute(...args, client);
-        event.once ? bot.once(name, value) : bot.on(name, value);
+        event.once ? client.once(name, value) : client.on(name, value);
     }
 }
