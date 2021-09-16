@@ -9,7 +9,7 @@ module.exports = {
         options.setName('membro')
         .setDescription('Avatar do Usuário Mencionado!')
         .setRequired(false)),
-    async execute(bot, i) {
+    async execute(client, i) {
         const user = i.options.getUser('membro') || i.user;
 
         const embed = new MessageEmbed()
